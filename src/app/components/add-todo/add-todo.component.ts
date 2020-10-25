@@ -22,6 +22,8 @@ export class AddTodoComponent implements OnInit {
       completed: false,
     }
 
+    this.title = "";
+
     this.addTodo.emit(todo);
   }
 
